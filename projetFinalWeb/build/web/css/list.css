@@ -1,0 +1,193 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 sept. 2024, 15:57:22
+    Author     : Hery
+*/
+nav {
+    background: #08afa1;
+    ;
+    width: 100%;
+    float: right;
+    text-align: right;
+    color: aliceblue;
+    padding: 0.5% 2%;
+    position: fixed;
+    z-index: 1;
+}
+
+.content{
+    z-index: 0;
+    padding-top: 9%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-attachment: fixed;
+}
+.vc{
+    color: rgb(239 239 239);
+}
+
+
+/**Formulaire  en pluseurs etapes **/
+#list-item{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.retour-all{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.retour{
+    width: fit-content;
+}
+
+.tab {
+    display: none;
+    transition: 1s;
+}
+
+.tab  .titre{
+    margin-bottom: 80px;
+}
+.step-button{
+    margin-top: 50px;
+}
+
+
+
+/******* List vol ***********/
+.VolDesc{
+    width: 90%;
+    border-radius: 10px;
+    background:rgb(239 239 239);
+    margin: 20px auto;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.VolDesc:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.radioVol{
+    display: none;
+}
+.vc{
+    margin: 0 0 20px 50px;
+    font-size: 30px;
+}
+.radioVol:checked ~  .VolDesc{
+    background: #191f45;
+    color: white;
+    transition: 0.5s;
+}
+.radioVol:checked ~vc{
+    color: white;
+}
+.prix-vol{
+    background: #191f45;
+    margin: auto 10px;
+    padding: 5px 10px 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+
+
+/** List hotel **/
+.HotelDesc {
+    border-radius: 10px;
+    background:rgb(239 239 239);
+    margin: 20px 0 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.HotelDesc:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.radioHotel{
+    display: none;
+}
+
+
+.img-hotel{
+    width: 200px;
+    height:200px;
+    border-radius: 10px 0 0 10px;
+}
+
+.hotel-nom{
+    margin: auto 0px  ;
+}
+.note-hotel{
+    display: flex;
+    color:#ff5500;
+}
+.act{
+    display: flex;
+    flex-direction:column;
+}
+.prix{
+    background: #191f45;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.hc{
+    color: rgb(239 239 239);
+    font-size: 30px;
+    margin: 10px 0px 50px 100px;
+
+}
+
+.radioHotel:checked~ .HotelDesc{
+    background: #191f45;
+    color: white;
+    transition: 0.5s;
+}
+
+.card-img-top{
+    max-height: 446px;
+}
+
+
+/*****Pas de resultat*/
+.no-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.no-btn {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.no-btn button a:hover{
+    color: white;
+}

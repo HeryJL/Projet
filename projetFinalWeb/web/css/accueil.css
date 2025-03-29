@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 sept. 2024, 00:30:24
+    Author     : Hery
+*/
+
+.voyage{
+   justify-content: center;
+   margin-bottom: 80px;
+}
+.accueil{
+    background: #edededed;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-attachment: fixed;
+  
+    border-radius: 20px;
+}
+
+.x {
+    margin: auto;
+    color:   rgb(14 50 101);
+    padding-top: 20px;
+    margin-bottom: 50px;
+    height: 190px;
+    background: white;
+    border-radius: 10px; 
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.x:hover{
+    color: white;
+    background:  rgb(14 50 101);
+    transform: scale(1.1);
+    transition: 1s;
+}

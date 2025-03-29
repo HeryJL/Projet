@@ -1,0 +1,51 @@
+[{
+        "id_panier": "205",
+        "nom_user": "lanja",
+        "type_item": "hotel",
+        "id_item": "16",
+        "date_depart": "2024-09-26",
+        "nb_pers": "5",
+        "duree": "5",
+        "date_panier": "2024-09-26 20:38:16",
+        "payement": "1"
+    }, {
+        "id_panier": "208",
+        "nom_user": "lanja",
+        "type_item": "vol",
+        "id_item": "1",
+        "date_depart": "2024-09-26",
+        "nb_pers": "3",
+        "duree": "5",
+        "date_panier": "2024-09-26 20:39:02",
+        "payement": "1"
+    }, {
+        "id_panier": "229",
+        "nom_user": "hery",
+        "type_item": "hotel",
+        "id_item": "17",
+        "date_depart": "2024-09-30",
+        "nb_pers": "1",
+        "duree": "1",
+        "date_panier": "2024-09-30 21:20:45",
+        "payement": "1"
+    }, {
+        "id_panier": "230",
+        "nom_user": "lanja",
+        "type_item": "hotel",
+        "id_item": "20",
+        "date_depart": "2024-09-30",
+        "nb_pers": "1",
+        "duree": "1",
+        "date_panier": "2024-09-30 21:24:44",
+        "payement": "1"
+    }, {
+        "id_panier": "231",
+        "nom_user": "lanja",
+        "type_item": "hotel",
+        "id_item": "17",
+        "date_depart": "2024-09-30",
+        "nb_pers": "1",
+        "duree": "1",
+        "date_panier": "2024-09-30 21:34:43",
+        "payement": "1"
+    }]

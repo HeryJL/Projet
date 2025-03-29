@@ -1,0 +1,208 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 août 2024, 18:07:35
+    Author     : Hery
+*/
+
+body{
+    background: linear-gradient(45deg, #87cee9, #03ff7f);
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+img{
+    object-fit: cover;
+}
+.home{
+    z-index: 0;
+    padding-top: 9%;
+    padding-left:15%;
+    padding-right: 15%;
+    background-attachment: fixed;
+}
+.card{
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.head{
+    background: url(background/pexels-zhangkaiyv-683940.jpg)no-repeat;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+
+}
+
+.head-item{
+    background: #0101051c;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.head h1{
+    font-size: 60px;
+}
+.head .text-head{
+
+    padding: 150px 0 0 450px ;
+    height: 100%;
+    max-width: 1010px;
+
+}
+
+
+.head .form-head{
+
+    margin: 80px auto;
+    height: 100%;
+    width: max-content;
+
+}
+
+.head .form-head input{
+    height: 50px;
+    padding-left: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    &:active, &:focus  {
+        outline: blueviolet;
+        box-shadow: none;
+     
+    }
+}
+.head .form-head input[type='text'] {
+    width: 200px;
+}
+.head .form-head input[type='number'] {
+    width: 200px;
+}
+
+
+.head .form-head .input--group{
+    display: flex;
+    background: linear-gradient(45deg, rgb(233 135 216 / 83%), rgb(5 255 130 / 83%), rgb(203 225 21 / 78%));
+    border-radius: 10px;
+}
+
+.head .form-head .list-input{
+    margin: 15px 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head .form-head .list-input label{
+    color: black;
+    font-size: x-large;
+}
+.head .form-head .input-item{
+    display: flex;
+    margin: 15px 20px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.head .form-head input[type='submit']{
+    border-radius: 10px;
+    width: 100px;
+    background: #0049a7;
+    color:white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 67px 20px 0 0;
+}
+.head .form-head input[type='submit']:hover{
+    background: #004;
+}
+.head .form-head span{
+    background: white;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+
+/***************EXTRA**************/
+
+.extra{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.extra h2{
+    margin-bottom: 50px;
+}
+.pop-dest{
+    justify-content: space-evenly;
+}
+
+.item-pop{
+    height: 400px;
+    width: 365px;
+    border-radius: 20px;
+    position: relative;
+}
+.item-pop:hover img{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.item-pop img{
+    height: 400px;
+    width: 365px;
+    border-radius: 20px;
+}
+
+.item-pop .text-pop{
+    background: rgb(255 255 255 / 83%);
+    margin: 20px;
+    padding: 15px;
+    height: 70px;
+    position: absolute;
+    bottom: 25%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.item-pop .text-pop:hover{
+    cursor: pointer;
+    background:  rgb(0 91 209 / 83%);
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+/******resa***/
+.resa{
+    background: white;
+}
+
+.rech{
+    justify-content: space-evenly;
+}
+.rech div{
+    text-align: center;
+    width: 250px;
+    color:   rgb(14 50 101);
+    padding-top: 20px;
+    margin-bottom: 50px;
+    height: 190px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rech div svg{
+    height: 120px;
+}
+
+.rech div:hover{
+    color: white;
+    background:  rgb(14 50 101);
+    transform: scale(1.1);
+    transition: 1s;
+}

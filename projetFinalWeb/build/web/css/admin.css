@@ -1,0 +1,260 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 31 août 2024, 20:11:37
+    Author     : Hery
+*/
+body{
+    background: rgb(245 245 245);
+}
+.navbar{
+    width: 280px;
+    height: 100vh;
+    align-items: flex-start;
+    padding: 0 5px;
+    position: fixed;
+}
+ul{
+    padding-left: 10px;
+}
+li{
+    list-style-type: none;
+    font-size: 30px;
+    margin: 50px 20px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.home{
+
+    display: flex;
+    height: 100vh;
+
+}
+.item-info{
+    margin-left:  320px;
+    margin-right: 50px;
+    margin-top:  100px;
+    margin-bottom: 150px;
+    ;
+    width: 100%;
+    height: max-content;
+
+}
+
+.infos{
+    justify-content: space-around;
+}
+.info{
+    margin: 20px;
+    padding: 50px ;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    color: black;
+    color: white;
+    background: #020210a3;
+}
+
+.img-dest img{
+    height: 300px;
+    object-fit: cover;
+}
+.img-dest{
+    max-height: 300px;
+}
+
+.ville-item:hover{
+    .img-dest img{
+        transform: scale(1.1);
+        transition: 0.5s ease;
+    }
+}
+
+.dest{
+    background: #020210a3;
+}
+.VolDesc{
+    width: 90%;
+    border-radius: 20px;
+    border-radius: 20px;
+    background:rgb(37 253 155);
+    margin: 20px auto;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listVol{
+    height: 700px;
+    overflow-y: auto;
+
+}
+
+.bt-ajout{
+    margin: 20px 20px 50px;
+}
+
+.bt-ed{
+    border: 5px blue;
+
+
+}
+
+
+.listHotel{
+    height: 700px;
+    overflow-y: auto;
+    margin-bottom: 200px;
+    justify-content: space-evenly;
+}
+
+.HotelDesc{
+    border-radius: 10px;
+    background: #a9bdd1;
+    height: 550px;
+}
+.img-hotel{
+    border-top-left-radius:  10px;
+    border-top-right-radius:  10px;
+    width: 360px;
+    height: 267px;
+}
+.HotelDesc img{
+    object-fit: cover;
+}
+
+.villeItem{
+    position: relative;
+
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+.villeItem .t{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+.villeItem .img-ville{
+    height: 450px;
+    width: 400px;
+    text-wrap: nowrap;
+}
+
+
+
+.nb-info{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nb-item{
+    height: 120px;
+    background: white;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-nb{
+    display: flex;
+}
+
+.rotate{
+    border-radius: 50%;
+    rotate: 54deg;
+    height: 120px;
+    width: 120px;
+}
+.text-nb h4{
+    padding: 40px 0;
+    justify-items: center;
+}
+
+.cercle{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 0 20;
+}
+.cercle .pourectage{
+    position: absolute;
+    top: 11px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.chart-bar{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+}
+.titre-chart{
+    font-size: 1.75rem;
+}
+
+.bar{
+    justify-content: space-evenly;
+}
+
+
+.info-count{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.count-item{
+    height: 120px;
+    background: white;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.count-item svg{
+    padding: 20px;
+    height: 40px;
+
+}
+
+#res{
+    border-radius: 50%;
+    color: rgb(255 0 0 / 74%);
+    background:rgb(255 198 205);
+}
+
+#a{
+    border-radius: 50%;
+    color: rgb(5 177 75);
+    background: rgb(18 233 86 / 49%);
+}
+#b{
+    border-radius: 50%;
+    color: rgb(42 51 181 / 74%);
+    background: rgb(198 205 255);
+}

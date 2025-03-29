@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 août 2024, 17:13:37
+    Author     : Hery
+*/
+.panier{
+    z-index: 0;
+    padding-top: 9%;
+    padding-left:15%;
+    padding-right: 15%;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.list-panier{
+ justify-content: center;
+  
+}
+
+.coordonnes{
+    margin: 50px;
+}
+
+.item-panier{
+    margin: 30px 30px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.info-pass{
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.dest{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fact{
+    background: #f7f7f791;
+    padding: 2%;
+    border-radius: 20px;
+}
+.info-user{
+    justify-content: center;
+}
+.info-user input{
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    padding: 0 10px;
+    
+}
+.info-user label{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.bt-c{
+    margin: auto;
+    border-radius: 5px ;
+    border: 3px solid rgb(14 50 101);
+    background:  none;
+    height: 50px;
+    width: 150px;
+    color:rgb(14 50 101);
+    font-size: 20px;
+    margin-top: 50px;
+    font-style: "bold";
+
+}
+
+.c {
+    align-items: center;
+}
+
+.bt-c:hover{
+    background:  rgb(14 50 101);
+    color:white;
+}
+
+
